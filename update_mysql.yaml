@@ -1,0 +1,5 @@
+---
+- hosts: mysql
+  tasks:
+  - name: Install MySQL on server
+    include: tasks/install_mysql.yaml

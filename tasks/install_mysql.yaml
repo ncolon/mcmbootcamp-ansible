@@ -1,0 +1,5 @@
+- name: install MySQL
+  apt:
+    name: mysql-server=5.7.11-0ubuntu6
+  become: yes
+
